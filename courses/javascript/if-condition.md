@@ -1,32 +1,10 @@
 ---
-title: "Introduction To Javascript"
-subheading: "If Condition"
-next: "arithmetic-operators"
+title: "If Condition"
+next: "switch-statement"
 prev: "logical-operators"
 contentOnly: true
 ---
 
-The `if(...)` statement evaluates a condition in parentheses and, if the result is `true`, executes a block of code.
-
-```javascript
-if (year == 2021) {
-  console.log("That's correct!");
-}
-```
-
-## The `else` clause
-
-The `if` statement may contain an optional `else` block. It executes when the condition is falsy.
-
-```javascript
-if (year == 2021) {
-  console.log("You guessed it right!");
-} else {
-  console.log("How can you be so wrong?"); // any value except 2021
-}
-```
-
----
 
 ## Complete the tasks below:
 
@@ -52,3 +30,8 @@ if (year == 2021) {
   - when first number greater than second number return 1
   - when first number less than second number return -1
   - when both are equal return 0
+
+
+## Reference
+
+- [if conditions](https://javascript.info/ifelse)

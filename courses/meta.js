@@ -23,68 +23,65 @@ let courses = [
       },
       {
         chapterId: 4,
-        chapterUrl: "datatypes",
-        chapterName: "Datatypes"
+        chapterUrl: "basic-function",
+        chapterName: "Basic Function"
       },
       {
         chapterId: 5,
-        chapterUrl: "logical-operators",
-        chapterName: "Logical Operators"
-      },
-      {
-        chapterId: 6,
-        chapterUrl: "if-condition",
-        chapterName: "If Condition"
-      },
-      {
-        chapterId: 7,
-        chapterUrl: "switch-statement",
-        chapterName: "The switch Statement"
-      },
-      {
-        chapterId: 8,
         chapterUrl: "arithmetic-operators",
         chapterName: "Arithmetic Operators"
       },
       {
-        chapterId: 9,
+        chapterId: 6,
+       
         chapterUrl: "comparisons",
         chapterName: "Comparisons"
       },
       {
+        chapterId: 7,
+
+        chapterUrl: "logical-operators",
+        chapterName: "Logical Operators"
+      },
+      {
+        chapterId: 8,
+        chapterUrl: "if-condition",
+        chapterName: "If Condition"
+      },
+      {
+        chapterId: 9,
+        chapterUrl: "switch-statement",
+        chapterName: "The switch Statement"
+      },
+      {
         chapterId: 10,
-        chapterUrl: "objects",
+        chapterUrl: "loops",
         chapterName: 'Objects'
       },
       {
         chapterId: 11,
-        chapterUrl: "prototypes",
-        chapterName: "Prototypes"
+        chapterUrl: "armstrong",
+        chapterName: 'Armstrong numbers'
       },
       {
         chapterId: 12,
+        chapterUrl: "palindrome",
+        chapterName: 'Palindrome'
+      },
+      {
+        chapterId: 13,
+        chapterUrl: "math",
+        chapterName: "Math"
+      },
+      {
+        chapterId: 14,
         chapterUrl: "function",
         chapterName: "Function"
       },
       {
-        chapterId: 13,
-        chapterUrl: "type-conversion",
-        chapterName: "Type Conversion"
-      },
-      {
-        chapterId: 14,
-        chapterUrl: "arrow-functions",
-        chapterName: "Arrow Functions"
-      },
-      {
         chapterId: 15,
-        chapterUrl: "asynchronous-behaviour-and-event-loop",
-        chapterName: "Asynchronous Behaviour And Event Loop"
-      },
-      {
-        chapterId: 16,
-        chapterUrl: "foreach-map-filter",
-        chapterName: "Foreach vs Map vs Filter"
+        chapterUrl: "array",
+        chapterName: "Array"
       }
     ]
   },

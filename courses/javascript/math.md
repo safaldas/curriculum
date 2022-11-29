@@ -1,7 +1,7 @@
 ---
 title: "Function"
-prev: "math"
-next: "foreach-map-filter"
+prev: "palindrome"
+next: "function"
 contentOnly: true
 --- 
 

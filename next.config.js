@@ -16,14 +16,14 @@ module.exports = {
     domains: ["nullcast-assets.s3.amazonaws.com"]
   },
   webpack5: true,
-  webpack(config) {
-    config.resolve.fallback = {
-      ...config.resolve.fallback, // if you miss it, all the other options in fallback, specified
-        // by next.js will be dropped. Doesn't make much sense, but how it is
-      fs: false, // the solution
-    };
-    return config;
-  },
+  // webpack(config) {
+  //   config.resolve.fallback = {
+  //     ...config.resolve.fallback, // if you miss it, all the other options in fallback, specified
+  //       // by next.js will be dropped. Doesn't make much sense, but how it is
+  //     fs: false, // the solution
+  //   };
+  //   return config;
+  // },
   
   env: {
     BASE_URL: process.env.BASE_URL,

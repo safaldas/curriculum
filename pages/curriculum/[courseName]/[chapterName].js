@@ -128,8 +128,8 @@ export default function Chapter({ chapterData, chapterName, courseName }) {
 
   useEffect(() => {
     hljs.highlightAll();
-  }, []);
-
+  },[chapterName]);
+  
   useEffect(() => {
     userState.setTest(testCase);
     userState.setRun(false);
